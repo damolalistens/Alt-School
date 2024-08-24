@@ -8,9 +8,16 @@
 </head>
 <style>
     body{
-        background-color:aqua;
+        background-color:rgb(195, 213, 213);
+        margin: 0;
+        padding: 0;
     }
-    h1.animate{
+    header{
+        color: deeppink;
+        background-color: teal;
+        padding: 20px;
+    }
+    .animate{
         color: deeppink;
         animation-duration: 3s;
         animation-name: slidein;
@@ -26,17 +33,59 @@
         width:100%
     }
 }
-    a:hover, a{
+    a:hover{
         text-decoration: underline;
+        color: deeppink;
+    }
+    a{
+        text-decoration: none;
         color: deeppink;
     }
     ol>li{
         list-style-type: disc;
     }
+    input{
+        background-color: deeppink;
+        color: white;
+        margin: 20px auto;
+        text-align: center;
+        padding: 10px;
+        width: 200px;
+        display: block;
+    }
+    footer{
+        text-align: center;
+        background-color: teal;
+        color: white;
+        padding: 10px;
+    }
+main{
+    max-width: 800px;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 5px;
+}
+.link{
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    padding: 15px;
+    background-color:rgb(11, 184, 149);
+    color: white;
+    border-radius: 4px;
+}
+.top{
+    text-align: center;
+    color: white;
+    border: white;
+    background-color: gray;
+}
 
 </style>
-<body id="Back to the Top">
-    <H1 class="animate">MEET ADEDAMOLA DARE ALT/SOE/024/0874</H1>
+<body id="Back-to-the-Top">
+    <Header><H1 class="animate">MEET ADEDAMOLA DARE ALT/SOE/024/0874</H1></Header>
+    <main>
     <p>
         I am <b>Adedamola Dare</b>. I was born in Isheri part of Lagos Nigeria on the 4th of August 1998.
         I'm from Oyan, a town in Odo-Otin local government, Osun State Nigeria. I have 3 siblings, 2 older brothers and
@@ -65,7 +114,7 @@
         As stated earlier, i enrolled for their front end engineering programme. It is a one year programme and at the end
         of my study here, i hope to be a world class front end engineer and to be able to boast of the following;
     <ul>
-        <li>Proficiency in HTML, CSS, JAVASCRIPT and modern front-end frameworks like REACT, ANGULAR AND VUEJ.S</li>
+        <li>Proficiency in HTML, CSS, JAVASCRIPT and modern front-end frameworks like REACT, ANGULAR AND VUEJS</li>
         <li>A Strong portfolio</li>
         <li>Problem solving skills</li>
         <li>Continuous learning</li>
@@ -73,7 +122,12 @@
         <li>Career Advancement</li>
     </ul>
     </p>
+    <a href="form.html" class="link">Altschoolafrica Form </a>
+    <a href="table.html" class="link">Schools&Courses</a>
+    <a href="media.html"class="link">Media Showcase</a>
+    <a href="#Back-to-the-Top" class="top"> Back to the Top</a>
+    </main>
+    <footer>&copy; 2024 Adedamola Dare </footer>
 </body>
-<input type="submit" value="Back to the Top" href="#Back to the Top" style="background-color: deeppink;">
 
 </html>
